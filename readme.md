@@ -137,4 +137,60 @@ cd agentic
 
 # Launch ADK web interface
 adk web
+
 ```
+upload both of EASA documents and add this as the prompt
+`aircrafts = [
+        {
+            "aircraft model": "MD-11",
+            "MSN": "48123",
+            "modifications": []
+        },
+        {
+            "aircraft model": "DC-10-30F",
+            "MSN": "47890",
+            "modifications": []
+        },
+        {
+            "aircraft model": "Boeing 737-800",
+            "MSN": "30123",
+            "modifications": []
+        },
+        {
+            "aircraft model": "A320-214",
+            "MSN": "5234",
+            "modifications": []
+        },
+        {
+            "aircraft model": "A320-232",
+            "MSN": "6789",
+            "modifications": ["mod 24591 (production)"]
+        },
+        {
+            "aircraft model": "A320-214",
+            "MSN": "7456",
+            "modifications": ["SB A320-57-1089 Rev 04"]
+        },
+        {
+            "aircraft model": "A321-111",
+            "MSN": "8123",
+            "modifications": []
+        },
+        {
+            "aircraft model": "A321-112",
+            "MSN": "364",
+            "modifications": ["mod 24977 (production)"]
+        },
+        {
+            "aircraft model": "A319-100",
+            "MSN": "9234",
+            "modifications": []
+        },
+        {
+            "aircraft model": "MD-10-10F",
+            "MSN": "46234",
+            "modifications": []
+        },
+
+        
+    ]`
