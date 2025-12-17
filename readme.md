@@ -139,7 +139,8 @@ cd agentic
 adk web
 
 ```
-upload both of EASA documents and add this as the prompt
+### For Agentic Approach upload both of EASA documents and add this as the prompt
+```powershell
 aircrafts = [
         {
             "aircraft model": "MD-11",
@@ -192,5 +193,3 @@ aircrafts = [
             "modifications": []
         },
    ]
-    
-
