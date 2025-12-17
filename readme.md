@@ -140,7 +140,7 @@ adk web
 
 ```
 upload both of EASA documents and add this as the prompt
-`aircrafts = [
+aircrafts = [
         {
             "aircraft model": "MD-11",
             "MSN": "48123",
@@ -191,6 +191,6 @@ upload both of EASA documents and add this as the prompt
             "MSN": "46234",
             "modifications": []
         },
+   ]
+    
 
-        
-    ]`
